@@ -1,0 +1,16 @@
+*~
+*.exe
+*.bc
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.a
+*.o
+.merlin
+_doc/
+_build/
+README.html
+dummy.install
+dummy.opam

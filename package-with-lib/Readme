@@ -1,0 +1,21 @@
+Building, installing and using a simple package consisting in a single library (named `dummy`)
+
+To build the package
+- cd ./build
+- make 
+- make test
+- make install
+- make opam.install 
+- make opam.show (checks that a package with name "dummy" is not already installed) 
+
+To use the package
+- cd ../use
+- make doc.view
+- make 
+
+To uninstall the package
+- cd ../build
+- make opam.remove
+
+
+

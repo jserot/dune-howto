@@ -1,0 +1,12 @@
+(lang dune 1.11)
+(version 0.0)
+(name dummy)
+(license MIT)
+(maintainers "JS")
+
+(package
+  (name dummy)
+  (synopsis "A dummy opam package")
+  (description "A really dummy OPAM package"))
+
+(generate_opam_files true)

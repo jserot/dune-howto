@@ -1,0 +1,22 @@
+Building, installing and using a simple package consisting in a main library ("dummy") and an auxiliary library ("utils")
+The auxiliary library is used by the main library but can also be used by other packages.
+
+To build the package
+- cd ./build
+- make 
+- make test
+- make install
+- make opam.install 
+- make opam.show (checks that a package with name "dummy" is not already installed) 
+
+To use the package
+- cd ../use
+- make doc.view
+- make 
+
+To uninstall the package
+- cd ../build
+- make opam.remove
+
+
+
