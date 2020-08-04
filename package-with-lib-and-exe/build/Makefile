@@ -11,7 +11,7 @@ build.bin:
 utop:
 	dune utop src  # Run custom top-level (for testing the library). Warning : invoke from shell
 
-install:
+dune.install:
 	dune build @install # This installs in ./_build/install and creates OPAM files
 
 INSTALL_DOCDIR=`opam config var doc`

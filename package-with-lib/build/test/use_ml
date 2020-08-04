@@ -1,0 +1,7 @@
+#directory "../../build/_build/default/src";;
+#directory "../../build/_build/default/src/.dummy.objs/byte";;
+#load "dummy__Banner.cmo";;
+
+open Dummy
+
+let _ = Banner.dump ()

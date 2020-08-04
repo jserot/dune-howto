@@ -1,5 +1,16 @@
 Building, installing and using a simple package consisting in a single library (named `dummy`)
 
+To build and test the library (w/o installing the package)
+- cd build/src
+- dune build dummy.cma
+- cd ../test
+- dune build test.exe
+- dune exec ./test.exe
+
+To test the library from the toplevel
+- open test/use_ml  (note: this file deliberately _not_ named use.ml)
+- evaluate phrases (note: first force Caml mode by invoking M-x tuareg-mode)
+
 To build the package
 - cd ./build
 - make 
