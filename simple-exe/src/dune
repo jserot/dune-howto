@@ -1,4 +1,4 @@
 (executable
-  (name main)
-  (libraries unix))
-  
+ (modes byte exe)
+ (name main)
+ (libraries unix))

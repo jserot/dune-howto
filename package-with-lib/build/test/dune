@@ -1,3 +1,4 @@
 (executable
-  (name test)
-  (libraries dummy))
+ (modes byte exe)
+ (name test)
+ (libraries dummy))
