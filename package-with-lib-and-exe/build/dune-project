@@ -1,4 +1,4 @@
-(lang dune 1.11)
+(lang dune 3.7)
 (version 0.0)
 (name dummy)
 (license MIT)
@@ -7,6 +7,8 @@
 (package
   (name dummy)
   (synopsis "A dummy opam package")
+  (depends
+    (ocaml (>= 5.0))) 
   (description "A really dummy OPAM package"))
 
 (generate_opam_files true)
