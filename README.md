@@ -11,13 +11,13 @@ This repository contains some very simple examples showing how to use
   use the inline, ppx-based, test mechanism to test it
 
 * the directory `package-with-lib` shows how to build, test, install and use a simple package consisting in a
-  single library (with HTML documentation)
+  single library
 
 * the directory `package-with-lib-and-exe` shows how to build, test, install and use a simple package consisting in a
   single library and an executable
 
 * the directory `package-with-lib-and-sublib` shows how to build, test, install and use a simple
-  package consisting in two libraries: a main library and auxiliary library 
+  package consisting in two libraries: a public main library and auxiliary private library 
 
 For the `package-xxx` examples, each directory consists in two sub-directories:
 
@@ -40,8 +40,8 @@ See the `Readme` file inside each example directory
 Pre-requisites
 --------------
 
-* An [Ocaml](http://ocaml.org/docs/install.html) compiler, version >= 4.06.0
+* An [Ocaml](http://ocaml.org/docs/install.html) compiler, version >= 5.0.0
 
 * The [dune](https://opam.ocaml.org/packages/dune)
-  package (the provided code has been tested with version >= 1.11).
+  package (the provided code has been tested with version >= 3.7).
 

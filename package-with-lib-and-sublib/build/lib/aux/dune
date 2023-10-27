@@ -1,0 +1,4 @@
+(library
+  (name aux)
+  (public_name dummy.aux)
+  (libraries unix))
