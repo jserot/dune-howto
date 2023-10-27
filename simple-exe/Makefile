@@ -1,11 +1,13 @@
-run:
-	dune exec ./src/main.exe
-
 build:
-	dune build ./src/main.exe
+	dune build
+
+exec: exec.bc
+
+exec.bc:
+	dune exec bin/main.bc
+
+exec.exe: 
+	dune exec bin/main.exe
 
 clean:
 	dune clean
-
-clobber: clean
-	\rm -f *~
