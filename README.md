@@ -17,7 +17,7 @@ This repository contains some very simple examples showing how to use
   single library and an executable
 
 * the directory `package-with-lib-and-sublib` shows how to build, test, install and use a simple
-  package consisting in two libraries: a public main library and auxiliary private library 
+  package consisting in two libraries: a main library and an auxiliary library 
 
 For the `package-xxx` examples, each directory consists in two sub-directories:
 
