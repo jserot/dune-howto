@@ -1,0 +1,5 @@
+(executable
+  (name main)
+  (modes byte exe)
+  (libraries unix))
+  

@@ -1,8 +1,11 @@
 This repository contains some very simple examples showing how to use 
-[dune](https://github.com/ocaml/dune) and [opam](http://opam.ocaml.org) build and packaging systems.
+[dune](https://github.com/ocaml/dune) and [opam](http://opam.ocaml.org) for building and packaging systems.
 
 * the directory `simple-exe` shows how to use `dune` to compile and run a simple program (making use
   of the `Unix` external library)
+
+* the directory `simple-lib-and-exe` shows how to use `dune` to compile and run a simple program, making use
+  of a local library
 
 * the directory `package-with-lib` shows how to build, test, install and use a simple package consisting in a
   single library 
