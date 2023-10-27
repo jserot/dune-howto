@@ -1,5 +1,4 @@
-## Building, installing and using a simple OPAM package consisting in a single library (named
-  `dummy`) and an executable (named `dummyc`)
+## Building, installing and using a simple OPAM package consisting in a single library (named `dummy`) and an executable (named `dummyc`)
 
 ### To build and install the package under OPAM
 

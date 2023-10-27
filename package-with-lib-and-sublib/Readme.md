@@ -1,5 +1,4 @@
-## Building, installing and using a simple OPAM package consisting in two libraries (a "main" one
-  and an auxilliary one). Both are public. 
+## Building, installing and using a simple OPAM package consisting in two libraries (a "main" one and an auxilliary one). Both are public. 
 
 ### To build and install the package under OPAM
 
