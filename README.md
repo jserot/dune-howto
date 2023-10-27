@@ -7,8 +7,11 @@ This repository contains some very simple examples showing how to use
 * the directory `simple-lib-and-exe` shows how to use `dune` to compile and run a simple program, making use
   of a local library
 
+* the directory `simple-exe-with-inline-test` shows how to use `dune` to build a simple program and
+  use the inline, ppx-based, test mechanism to test it
+
 * the directory `package-with-lib` shows how to build, test, install and use a simple package consisting in a
-  single library 
+  single library (with HTML documentation)
 
 * the directory `package-with-lib-and-exe` shows how to build, test, install and use a simple package consisting in a
   single library and an executable

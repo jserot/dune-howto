@@ -1,5 +1,2 @@
-#use_output "dune ocaml top";;
-
 open Dummy
-
 let _ = Banner.dump ()
