@@ -1,0 +1,11 @@
+(executable
+  (name main)
+  (modes byte)
+  (preprocess (pps ppx_expect)))
+
+(rule
+(with-stdout-to main.output (run ./main.bc)))
+
+(rule
+ (alias runtest)
+ (action (diff main.expected main.output)))  
