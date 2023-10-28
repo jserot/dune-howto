@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (modes byte)
+ (libraries dummy))

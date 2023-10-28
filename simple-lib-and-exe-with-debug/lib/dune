@@ -1,0 +1,3 @@
+(library
+ (name dummy)
+ (modules foo bar))

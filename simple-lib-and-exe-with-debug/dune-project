@@ -1,0 +1,3 @@
+(lang dune 3.7)
+(wrapped_executables false) ; See https://discuss.ocaml.org/t/using-ocamldebug-with-dune/7878
+(map_workspace_root false)  ; See https://dune.readthedocs.io/en/stable/dune-files.html#stanza-map_workspace_root
