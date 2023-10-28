@@ -13,8 +13,6 @@ This repository contains some very simple examples showing how to use
 * the directory `simple-lib-and-exe-with-debug` shows how to debug a program (using a library) using
   `ocamldebug`
   
-  use the inline, ppx-based, test mechanism to test it
-
 * the directory `package-with-lib` shows how to build, test, install and use a simple package consisting in a
   single library
 
