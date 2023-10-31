@@ -1,0 +1,4 @@
+(install
+ (files readme.md)
+ (section share)
+ (package dummy))
