@@ -1,0 +1,4 @@
+(library
+  (name main)
+  (public_name dummy.main)
+  (libraries dummy.aux))

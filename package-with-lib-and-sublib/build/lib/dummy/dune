@@ -1,4 +1,0 @@
-(library
-  (name dummy)
-  (public_name dummy)
-  (libraries aux))

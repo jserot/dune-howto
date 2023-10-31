@@ -3,8 +3,8 @@ all: build doc
 build:
 	dune build ./lib/aux/aux.cma
 	dune build ./lib/aux/aux.cmxa
-	dune build ./lib/dummy/dummy.cma
-	dune build ./lib/dummy/dummy.cmxa
+	dune build ./lib/main/main.cma
+	dune build ./lib/main/main.cmxa
 
 install:
 	dune build @install # This installs in ./_build/install and creates OPAM files
